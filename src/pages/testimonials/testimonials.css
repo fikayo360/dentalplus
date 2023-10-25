@@ -1,0 +1,117 @@
+#testimonialContain,#testimonialContent{
+    display: flex;
+}
+
+#testimonialContain{
+    position: relative;
+    background-color: #f1f0f0;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 3rem;
+}
+
+
+#testimonialContain h1{
+    color:black;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#scircle1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    left:-30px;
+    border-radius: 1% 99% 99% 1% / 66% 0% 100% 34% ;
+    background: #41295a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#scircle2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    border-radius: 99% 1% 0% 100% / 100% 46% 54% 0% ;
+    background: #1e3c72;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+@media (max-width: 767px) {
+    #testimonialContain{
+        position: relative;
+        background-color: #f1f0f0;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        height: 150%;
+        padding-top: 13rem;
+        overflow: hidden;
+    }
+    
+    #testimonialContain h1{
+        font-size: 2rem;
+    }
+    
+    #scircle1{
+        width: 270px;
+        height: 270px;
+        top:-20px;
+        left:-70px;
+    }
+    
+    #scircle2{
+        width: 270px;
+        height: 270px;
+        bottom: -20px;
+        right: -70px;
+    }
+}
+
+@media (max-width: 768px) and (max-height: 750px) {
+    #scircle2{
+        width: 200px;
+        height: 200px;
+    }
+  }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #testimonialContain{
+        position: relative;
+        background-color: #f1f0f0;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        height: 130%;
+        padding-top: 17rem;
+        overflow: hidden;
+    }
+    
+    #testimonialContain h1{
+        font-size: 4rem;
+    }
+    
+    #scircle1{
+        width: 400px;
+        height: 400px;
+        top:-20px;
+        left:-70px;
+    }
+    
+    #scircle2{
+        width: 400px;
+        height: 400px;
+        bottom: -20px;
+        right: -70px;
+    }
+}
