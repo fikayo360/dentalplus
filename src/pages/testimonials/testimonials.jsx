@@ -1,5 +1,5 @@
 import './testimonials.css'
-// import TSlider from '../slider/slider';
+import TSlider from '../slider/slider';
 import { useInView } from 'react-intersection-observer';
 
 const Testimonials = () => {
@@ -9,7 +9,7 @@ const Testimonials = () => {
             <div id="scircle1"></div>
             <div id="scircle2"></div>
             <h1 ref={ref} className={`animate__animated ${inView?'animate__bounce':''}`}> Testimonials </h1>
-            {/* <TSlider/> */}
+            <TSlider/>
         </div>
     )
 }
