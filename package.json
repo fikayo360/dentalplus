@@ -19,7 +19,6 @@
     "pigeon-maps": "^0.21.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-elastic-carousel": "^0.11.5",
     "react-intersection-observer": "^9.5.2",
     "react-map-gl": "^7.1.6",
     "react-simple-typewriter": "^5.0.1",
