@@ -1,6 +1,5 @@
 import './testimonials.css'
-import Carousel from 'react-grid-carousel'
-import TSlider from '../slider/slider';
+// import TSlider from '../slider/slider';
 import { useInView } from 'react-intersection-observer';
 
 const Testimonials = () => {
