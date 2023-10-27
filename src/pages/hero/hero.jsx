@@ -3,8 +3,10 @@ import './heroStyles.css'
 import {Cursor,useTypewriter} from 'react-simple-typewriter'
 import { useInView } from 'react-intersection-observer';
 import { useRef} from "react";
+import { useState, useEffect } from "react";
 
 const Hero = () => {
+
     const [text] = useTypewriter({
         words: ['Tooth-whitening','mouth odour treatment','Scaling','Polishing','crown and bridges','Tooth arrangement','Maxillofacial Prothesis','General dental consult','oral care products'],
     })

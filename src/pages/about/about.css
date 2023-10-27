@@ -29,16 +29,11 @@
 }
 
 #aboutContentImgContain{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
     width: 35%;
     height: 83%;
 }
 
 #aboutContentImgContain img{
-    position: absolute;
     width:100%;
     height: 100%;
     border-radius: 20px;
@@ -65,12 +60,14 @@
 
 #aTextMain{
     margin-bottom: 2rem;
+    width: 95%;
 }
 
 #aboutContentTxtContain ul{
     width:95%;
     margin: 0;
     padding: 0;
+
 }
 
 #aboutContentTxtContain li{
@@ -129,10 +126,10 @@
 
     #aboutContain{
         flex-direction: column;
-        padding-top: 12rem;
+        padding-top: 14rem;
         align-items: center;
         width:100%;
-        height: 180%;
+        height: 200%;
         position: relative;
         overflow: hidden;
     }
@@ -142,7 +139,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
-        gap:0rem;
+        gap:0;
         width:85%;
         height: 82%;
     }
@@ -150,11 +147,12 @@
     #aboutContentImgContain{
         margin-bottom: 1rem;
         width: 90%;
-        height: 50%;
+        height: 40%;
     }
 
     #aboutContentTxtContain{
         display: flex;
+        align-items: center;
         flex-direction: column;
         margin-right: 0rem;
         width:100%;
@@ -163,7 +161,7 @@
     #aboutContain h1{
         font-size: 2rem;
         font-weight: bold;
-        margin-bottom: 5px;
+        margin-bottom: 2rem;
     }
     
     #aTextMain{
@@ -227,8 +225,8 @@
     }
     
     #circle2{
-        width:150px;
-        height:150px;
+        width:250px;
+        height:250px;
         border-radius: 50%;
         bottom: -30px;
         right: -50px;
@@ -239,7 +237,7 @@
         padding-top: 12rem;
         align-items: center;
         width:100%;
-        height: 130%;
+        height: 170%;
         position: relative;
         overflow: hidden;
     }
@@ -249,7 +247,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 1rem;
-        gap:0rem;
+        gap:0;
         width:85%;
         height: 90%;
     }
@@ -257,11 +255,12 @@
     #aboutContentImgContain{
         margin-bottom: 1rem;
         width: 90%;
-        height: 70%;
+        height: 40%;
     }
 
     #aboutContentTxtContain{
         display: flex;
+        align-items: center;
         flex-direction: column;
         margin-right: 0rem;
         width:100%;
@@ -274,8 +273,8 @@
     }
     
     #aTextMain{
-        font-size: 1.1rem;
-        line-height: 25px;
+        font-size: 1.2rem;
+        line-height: 30px;
         text-align: center;
         margin-bottom: 2rem;
     }
