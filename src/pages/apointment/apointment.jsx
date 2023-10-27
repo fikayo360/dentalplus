@@ -24,7 +24,7 @@ const Appointment = () => {
               form.current.reset();
               clear()
   
-          }, (error) => {
+          }, (error) => { 
               console.log(error.text);
               setSucess(false)
           });
@@ -32,9 +32,9 @@ const Appointment = () => {
 
     return (
         <div id="apointmentContain">
-            <h1>Book apointment</h1>
+            <h1 ref={ref} className={`animate__animated ${inView?'animate__bounce':''}`}>Book apointment</h1>
             <div id="apointmentContent">
-                <div id="apointmentContentLeft" ref={ref} className={`animate__animated ${inView?'animate__bounce':''}`}>
+                <div id="apointmentContentLeft" >
                     <form ref={form} onSubmit={handleSubmit}>
                         <input  className="inputs" type="text" placeholder='enter your name' name="name"/>
                         <input type="text" className="inputs" placeholder='enter your email' name="message"/>
@@ -51,7 +51,7 @@ const Appointment = () => {
                     latitude: 5.6644,
                     zoom: 10
                 }}
-                style={{width: '90%', height:'90%'}}
+                style={{width: '90%', height:'100%'}}
                 mapStyle="mapbox://styles/mapbox/streets-v9"
                 />
                 </div>

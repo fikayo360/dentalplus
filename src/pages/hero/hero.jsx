@@ -44,8 +44,10 @@ const Hero = () => {
             </div>
              <div className="mobileNav" ref={navRef}>
             <div id="navMobileH">
+                <div id="navMobileHwrap">
                 <span>DENTAL-PLUS BEAUTY</span>
                 <div id="closeN" onClick={closeNavMobile}><img src="./close.png" /></div>
+                </div>
             </div>
             <div id="bodyWrap">
              <ul id="nMlistItems">

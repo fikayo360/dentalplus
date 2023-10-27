@@ -29,7 +29,7 @@ const services = [
     },
     {
         img:'https://www.the-dentist.co.uk/media/qx3pfcis/gdc-launches-a-fitness-to-practise-pilot-the-dentist.jpg?width=1002&height=564&bgcolor=White&rnd=133383118159130000',
-        title:'General dental practise',
+        title:'General dental practice',
     },
     {
         img:'https://images.squarespace-cdn.com/content/v1/56ccc741b6aa60b506978019/1573339754971-XKH94F355OXJN0JL3KOL/dentures.jpg?format=1500w',

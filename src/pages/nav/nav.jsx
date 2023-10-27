@@ -10,8 +10,6 @@ const Navbar = ({showNavMobile}) => {
     const TeamRef = useRef(null)
     const TestimonialsRef = useRef(null)
     const AppointmentRef = useRef(null)
-    const menuRef = useRef(null)
-    const [menuActive,setMenuActive] = useState(false)
 
     function setActive(ref){
         switch(ref.current.textContent){
