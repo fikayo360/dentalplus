@@ -25,7 +25,7 @@ const Hero = () => {
     
 
     return (
-        <div className="heroContain">
+        <div className="heroContain" style={{backgroundImage:'url(./dental.jpg)'}}>
             <Navbar showNavMobile={showNavMobile}/>
             <div id="contentWrap">
             <div id="content">
