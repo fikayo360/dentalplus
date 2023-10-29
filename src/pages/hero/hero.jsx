@@ -28,7 +28,7 @@ const Hero = () => {
 
     return (
         <div className="heroContain" style={{backgroundImage:'url(./dental.jpg)'}}>
-            <Navbar showNavMobile={showNavMobile}/>
+            <Navbar showNavMobile={showNavMobile}/>    
             <div id="contentWrap">
             <div id="content">
                 <h1 id="heroH" className={`animate__animated ${inView?'animate__rubberBand animate__delay-1.5s':''}`} ref={ref}>Improve your dental health </h1>
